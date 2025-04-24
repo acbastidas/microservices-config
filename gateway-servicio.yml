@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      label: master
+      name: gateway-servicio
+    profiles:
+      active: gateway-servicio
